@@ -5,4 +5,4 @@ def renderIndex(request):
     return render(request, 'templatesAPP1/index.html')
 
 def renderProductos(request):
-    return render(request, 'templatesAPP1/productos.html')
+    return render(request, 'templatesAPP1/productos')
