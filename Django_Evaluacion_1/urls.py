@@ -20,5 +20,6 @@ from Evaluacion_1APP import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.renderIndex)
+    path('', views.renderIndex),
+    path('usuario/', views.renderUsuario),
 ]
