@@ -53,7 +53,6 @@ def renderHogar(request,id):
             dataHogar[f'imagen_{x}'] = data[clave_prefijo]['imagen']
             dataHogar[f'precio_{x}'] = data[clave_prefijo]['precio']
             dataHogar[f'descripcion_{x}'] = data[clave_prefijo]['descripcion']
-            print(dataHogar)
         return render(request, 'templatesAPP1/productos.html', dataHogar)
 
 def renderAudio(request,id):
