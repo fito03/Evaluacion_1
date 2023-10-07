@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.renderIndex),
     path('usuario/', views.renderUsuario),
+    path('celulares/<id>/', views.renderCelular),
+    path('hogar/<id>/', views.renderHogar),
+    path('audio/<id>/', views.renderAudio),
 ]
